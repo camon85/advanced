@@ -7,7 +7,7 @@ public class FieldService {
 
     private String nameStore;
 
-    public String locig(String name) {
+    public String logic(String name) {
         log.info("저장 name={} -> nameStore={}", name, nameStore);
         nameStore = name;
         sleep(1000);

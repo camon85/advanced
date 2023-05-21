@@ -12,11 +12,11 @@ public class FieldServiceTest {
     void field() {
         log.info("main start");
         Runnable userA = () -> {
-            fieldService.locig("userA");
+            fieldService.logic("userA");
         };
 
         Runnable userB = () -> {
-            fieldService.locig("userB");
+            fieldService.logic("userB");
         };
 
         Thread threadA = new Thread(userA);
